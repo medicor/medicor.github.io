@@ -10,8 +10,8 @@ contact: static
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 3cb6ce
-  secondary: ffb948
-  secondary-dark: 5fd2ea
+  secondary: e98300
+  secondary-dark: a2ad00
 
 # Footer settings
 footer:
@@ -36,7 +36,7 @@ address:
   - line: info@registercentrum.se
 
 # Credits content
-credits: 'Baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll, skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>'
+credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown
