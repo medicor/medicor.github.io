@@ -10,12 +10,15 @@
     <script src="{{ "/js/cbpAnimatedHeader.js" }}"></script>
 
     <!-- Contact Form JavaScript -->
+    {% comment %}
     <script src="{{ "/js/jqBootstrapValidation.js" }}"></script>
+    
     {% if site.contact == "static" %}
     <script src="{{ "/js/contact_me_static.js" }}"></script>
     {% else %}
      <script src="{{ "/js/contact_me.js" }}"></script>
     {% endif %}
+    {% endcomment %}
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
