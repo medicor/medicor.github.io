@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stratum APIs
+---
 
 #Stratums öppna api:er
 [toc]
