@@ -16,9 +16,9 @@ color:
 # Footer settings
 footer:
   copyright: Registercentrum Västra Götaland
-  location: Location
-  social: Around the Web
-  credits: Credits
+  location: Adress
+  social: Socialt
+  credits: Erkännanden
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -31,11 +31,12 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Ålegårdsgatan 240
-  - line: 431 50 Mölndal
+  - line: Registercentrum Västra Götaland 
+  - line: 413 45 Göteborg
+  - line: info@registercentrum.se
 
 # Credits content
-credits: 'Based upon Freelancer theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Based upon <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer theme for Jekyll created by <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown
