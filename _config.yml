@@ -36,7 +36,7 @@ address:
   - line: info@registercentrum.se
 
 # Credits content
-credits: 'Based upon <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer theme for Jekyll created by <a href="http://startbootstrap.com">Start Bootstrap</a>'
+credits: 'Baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll, skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown
