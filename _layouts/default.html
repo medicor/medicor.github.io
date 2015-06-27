@@ -6,13 +6,15 @@
     {% include header.html %}
     {% include portfolio_grid.html %}
     {% include about.html %}
-<!--
+    
+    {% comment %}
     {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% else %}
     {% include contact.html %}
     {% endif %}
--->
+    {% endcomment %}
+    
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
