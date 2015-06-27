@@ -1,8 +1,8 @@
 # Site settings
 title: Stratum
-email: roger@medicor.se
+email: roger.salomonsson@registercentrum.se
 url: https://registercentrum.github.io
-description: "Open APIs in the Stratum platform for quality registers in healthcare."
+description: "plattform för kvalitetsregister inom hälso- och sjukvård"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
