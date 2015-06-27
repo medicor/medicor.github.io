@@ -1,8 +1,8 @@
 # Site settings
-title: Medicor
+title: Stratum
 email: roger@medicor.se
-url: https://medicor.github.io
-description: "APIs at the Stratum platform for quality registers in healthcare."
+url: https://registercentrum.github.io
+description: "Open APIs in the Stratum platform for quality registers in healthcare."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -15,7 +15,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Medicor AB
+  copyright: Registercentrum Västra Götaland
   location: Location
   social: Around the Web
   credits: Credits
@@ -24,7 +24,7 @@ footer:
 social:
   - title: twitter
     url: http://twitter.com/medicorab
-  - title: google+
+  - title: google-plus
     url: https://plus.google.com/u/0/+RogerSalomonsson
   - title: github
     url: http://github.com/medicor
@@ -35,7 +35,7 @@ address:
   - line: 431 50 Mölndal
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Based upon Freelancer theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
