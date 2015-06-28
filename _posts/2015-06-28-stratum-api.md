@@ -17,4 +17,4 @@ function test() {
 }
 ```
 ---
-Dokumentationen framtagen med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
+Dokumentation skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
