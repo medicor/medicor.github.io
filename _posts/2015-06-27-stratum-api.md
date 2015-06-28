@@ -1,17 +1,16 @@
 ---
 layout: default
-title: Stratum APIs
+title: Stratums öppna api:er
 ---
-
-#Stratums öppna api:er
-{:.no_toc}
 
 {:toc}
-
 ---
 ##Metadata
+
 ##Autentisering
+
 ##Registreringar
+
 ```javascript
 function test() {
 	var x = 2;
