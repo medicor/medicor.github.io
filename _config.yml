@@ -37,5 +37,5 @@ credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/free
 
 # Build settings
 permalink: pretty
-markdown: redcarpet
-highlighter: pygments
+# markdown: redcarpet
+# highlighter: pygments
