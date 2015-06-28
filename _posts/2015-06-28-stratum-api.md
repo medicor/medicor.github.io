@@ -1,6 +1,7 @@
 ---
 title: Öppna data från Stratum
 ---
+
 ##Öppna data från Stratum
 
 * Innehåll
