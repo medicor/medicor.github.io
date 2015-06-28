@@ -11,7 +11,7 @@ contact: static
 color:
   primary: e98300
   secondary: 3cb6ce
-  secondary-dark: a2ad00
+  secondary-dark: 5fd2ea
 
 # Footer settings
 footer:
