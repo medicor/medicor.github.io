@@ -16,9 +16,9 @@ color:
 # Footer settings
 footer:
   copyright: Registercentrum Västra Götaland
-  location: Hitta oss
-  social: Socialt
-  credits: Tack!
+  location:
+  social:
+  credits:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -36,7 +36,7 @@ address:
   - line: info@registercentrum.se
 
 # Credits content
-credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>'
+credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll' #  som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>
 
 # Build settings
 markdown: kramdown
