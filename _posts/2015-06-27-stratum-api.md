@@ -3,8 +3,11 @@ layout: default
 title: Stratums öppna api:er
 ---
 
+* Table of contents
 {:toc}
+
 ---
+
 ##Metadata
 
 ##Autentisering
