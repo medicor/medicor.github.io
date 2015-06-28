@@ -10,7 +10,7 @@ I Stratum finns publika API:er inom flera kategorier.
 [toc]
 
 ---
-```
+```javascript
 function test() {
 	var x = 2;
 	var y = 3;
