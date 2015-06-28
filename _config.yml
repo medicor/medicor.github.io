@@ -4,9 +4,6 @@ email: roger.salomonsson@registercentrum.se
 url: https://registercentrum.github.io
 description: "plattform för kvalitetsregister inom hälso- och sjukvård"
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: e98300
@@ -40,4 +37,3 @@ credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/free
 
 # Build settings
 permalink: pretty
-markdown: redcarpet
