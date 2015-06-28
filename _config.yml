@@ -41,6 +41,7 @@ credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/free
 # Build settings
 markdown: kramdown # maroku
 permalink: pretty
+highlighter: pygments
 
 kramdown:
   input: GFM
