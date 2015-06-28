@@ -4,10 +4,15 @@ title: Stratum APIs
 ---
 
 #Stratums öppna api:er
-[toc]
+{:.no_toc}
+
+{:toc}
 
 ---
-```
+##Metadata
+##Autentisering
+##Registreringar
+```javascript
 function test() {
 	var x = 2;
 	var y = 3;
