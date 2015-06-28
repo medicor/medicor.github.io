@@ -36,8 +36,9 @@ address:
 credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll' #  som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>
 
 # Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
 permalink: pretty
 
-markdown: kramdown
-
-highlighter: pygments
