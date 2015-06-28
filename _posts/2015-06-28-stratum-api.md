@@ -1,3 +1,8 @@
+---
+title: Öppna data från Stratum
+layout: default
+---
+
 ##Öppna data från Stratum
 
 * Innehåll
@@ -8,7 +13,7 @@ Stratum är en teknisk plattform för att beskriva, lagra och analysera data i k
 
 I Stratum finns publika API:er inom flera kategorier. 
 
-```JavaScript
+```javascript
 function test() {
 	var x = 2;
 	var y = 3;
