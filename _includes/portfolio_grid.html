@@ -2,9 +2,11 @@
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            {% for post in site.posts %}
-                <div class="row">{{ post.content }}</div>
-            {% endfor %}
+            <div class="col-lg-8 col-lg-offset-2">
+                {% for post in site.posts %}
+                    <div class="row">{{ post.content }}</div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
