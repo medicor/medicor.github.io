@@ -1,6 +1,6 @@
 ---
 title: Öppna data från Stratum
-layout: default
+layout: null
 ---
 
 ##Öppna data från Stratum
