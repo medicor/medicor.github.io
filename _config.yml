@@ -37,12 +37,5 @@ credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/free
 
 # Build settings
 permalink: pretty
-markdown: kramdown
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: true
-  input: GFM
+markdown: redcarpet
+highlighter: pygments
