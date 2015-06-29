@@ -38,5 +38,7 @@ credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/free
 markdown: redcarpet
 highlighter: pygments
 
+pygments_options: ['lineanchors']
+
 redcarpet:
   extensions: []
