@@ -6,7 +6,7 @@ Stratum är en teknisk plattform för att beskriva, lagra och analysera data i k
 
 I Stratum finns publika API:er inom flera kategorier. 
 
-```javascript linenos:true
+```javascript linenos
 function test() {
 	var x = 2;
 	var y = 3;
