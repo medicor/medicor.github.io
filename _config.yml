@@ -36,5 +36,7 @@ address:
 credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll' #  som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>
 # Use kramdown as markdown parser engine.
 markdown: redcarpet
+highlighter: pygments
+
 redcarpet:
   extensions: [fenced_code_blocks]
