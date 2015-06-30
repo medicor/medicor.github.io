@@ -1,3 +1,5 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% comment %}
 {% include css/syntax.css %}
+{% endcomment %}
