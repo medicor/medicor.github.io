@@ -37,7 +37,8 @@ credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/free
 
 kramdown:
   input: GFM
-  
+highlighter: pygments  
+
 #markdown: redcarpet
 #highlighter: pygments
 
