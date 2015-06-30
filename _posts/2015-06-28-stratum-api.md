@@ -13,6 +13,11 @@ function test() {
 }
 ```
 
-<iframe width="100%" height="100" src="//jsfiddle.net/medicor/z73patd9/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+```
+/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o= 
+```
+[Kör](http%3A%2F%2Fstratum.registercentrum.se%2Fapi%2Faggregate%2FLVR%2FVisit%2Ftotal%2Fshare%28Height%28165%29%29%2Fcounty%28VisitUnit%29%2FGender%3Fapikey%3DbK3H9bwaG4o%3D)
+
+<iframe width="100%" height="300" src="//jsfiddle.net/medicor/z73patd9/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
