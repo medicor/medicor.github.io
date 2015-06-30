@@ -14,10 +14,13 @@ function test() {
 ```
 
 ```
-/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o= 
+/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender 
 ```
 <a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
 
 <iframe width="100%" height="300" src="//jsfiddle.net/medicor/z73patd9/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<a class="embedly-card" href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=">Card</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
