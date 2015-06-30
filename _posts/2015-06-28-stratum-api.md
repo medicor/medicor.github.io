@@ -13,4 +13,6 @@ function test() {
 }
 ```
 
+<iframe width="100%" height="100" src="//jsfiddle.net/medicor/z73patd9/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
