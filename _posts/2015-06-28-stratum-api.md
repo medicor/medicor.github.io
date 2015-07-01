@@ -18,6 +18,6 @@ function test() {
 ```
 <a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
 
-<iframe width="100%" height="300" src="//jsfiddle.net/medicor/nswnvLb7/embedded/{html,result}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/medicor/nswnvLb7/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
