@@ -17,7 +17,7 @@ function test() {
 /api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender 
 ```
 
-> <script>document.write('jQuery version is ' + $.fn.jQuery)</script>
+> <script>document.write('jQuery version is ' + $.fn.jquery)</script>
 
 <a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
 
