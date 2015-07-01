@@ -13,7 +13,7 @@ function test() {
 }
 ```
 
-``` html
+```
 /api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender 
 ```
 <a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
