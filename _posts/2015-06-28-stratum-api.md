@@ -20,6 +20,6 @@ Exempel på api-anrop. Antingen som ...
 <a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
 
 ... eller som:
-<iframe width="100%" height="100" src="//jsfiddle.net/medicor/y40pxfxt/embedded/result/" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/medicor/y40pxfxt/embedded/result/" frameborder="0"></iframe>
 
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
