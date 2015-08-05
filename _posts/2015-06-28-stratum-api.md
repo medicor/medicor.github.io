@@ -12,15 +12,13 @@ function test() {
 	var y = 3;
 }
 ```
-
+Exempel på api-anrop. Antibgen som ...
 ```
 /api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender 
 ```
-
-> <script>document.write('jQuery version is ' + $.fn.jquery)</script>
-
 <a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
 
+... eller som:
 <iframe width="100%" height="400" src="//jsfiddle.net/medicor/y40pxfxt/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
