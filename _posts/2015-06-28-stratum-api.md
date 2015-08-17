@@ -1,25 +1,5 @@
-##Öppna data från Stratum
+# Test
 
-###Vad är Stratum?
-
-Stratum är en teknisk plattform för att beskriva, lagra och analysera data i kvalitetsregister inom hälso- och sjukvård.
-
-I Stratum finns publika api:er inom flera kategorier. 
-
-``` javascript
-function test() {
-	var x = 2;
-	var y = 3;
-}
-```
-Exempel på api-anrop. Antingen som ...
-```
-/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender 
-```
-
-<a href="http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=" target="_blank">Kör</a>
-
-... eller som:
 <iframe width="100%" height="300" src="//jsfiddle.net/medicor/y40pxfxt/embedded/result/" frameborder="0"></iframe>
 
 Denna dokumentation är skriven med [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/).
