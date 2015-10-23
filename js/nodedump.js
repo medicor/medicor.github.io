@@ -1,4 +1,4 @@
-(function() {
+(function(global) {
 /*
  * Simplified CSS adjustments by Medicor, 2015.
  *
@@ -617,4 +617,4 @@ function setDumpFunctionName(fnName){
 }
 
 setDumpFunctionName(); // set the name of the global nodedump function to the default
-})();
+})(window);
