@@ -7,7 +7,7 @@ Andel registreringar med längd över 165 cm per kön och landsting:
 
 
 <div class="apidump">
-<button onclick="visualize('https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/count/county(VisitUnit)/VisitUnit?apikey=bK3H9bwaG4o=');">Kör</button></div>
+<button class="btn btn-default" onclick="visualize('https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/count/county(VisitUnit)/VisitUnit?apikey=bK3H9bwaG4o=');">Kör</button></div>
 
 ----------
 
