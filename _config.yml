@@ -1,8 +1,8 @@
 # Site settings
-title: Medicor
-email: roger@medicor.se
-url: https://medicor.github.io
-description: "testar Github Pages"
+title: Stratum
+email: roger.salomonsson@registercentrum.se
+url: https://registercentrum.github.io
+description: "plattform för kvalitetsregister inom hälso- och sjukvård"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -12,7 +12,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Medicor AB
+  copyright: Registercentrum Västra Götaland
   location:
   social:
   credits:
@@ -28,12 +28,12 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Medicor AB 
-  - line: 431 50 Mölndal
-  - line: info@medicor.se
+  - line: Registercentrum Västra Götaland 
+  - line: 413 45 Göteborg
+  - line: info@registercentrum.se
 
 # Credits content
-credits: 'Tema baserat på <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll' #  som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>
+credits: 'Tema baserat på <a href="http://https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll' #  som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>
 
 markdown: redcarpet
 highlighter: pygments
