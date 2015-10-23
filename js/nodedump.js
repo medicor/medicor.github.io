@@ -547,16 +547,16 @@
 	var CSS = '<style type="text/css">\n' + 
 	'/* nodedump styles */\n' + 
 	'table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border-spacing:2px; width: auto; line-height:normal; }\
-	table.nodedump { font-size: x-small; background-color: #dddddd; color: #222222; }\
+	table.nodedump { font-size: small; background-color: #dddddd; color: #222222; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
 	table.nodedump { background-color: #707000; }\
-	table.nodedump th { text-align: left; color: white; padding: 5px; background-color: #ADAD00; }\
-	table.nodedump td { vertical-align : top; padding: 3px; background-color: #FFFF9E; }\
+	table.nodedump th { text-align: left; color: white; padding: 5px; background-color: #263238; }\
+	table.nodedump td { vertical-align : top; padding: 3px; background-color: #ECEFF1; }\
 	table.nodedump td.nodedump-data { background-color: #ffffff; }\
 	table.nodedump td.nodedump-data pre { line-height:normal; background-color: #ffffff; border:0; padding:0; }\n\
 	table.nodedump td.nodedump-data pre code { font-size: small; font-family: Consolas, Menlo, Monaco, Lucida Console, monospace; Courier New, monospace, serif; }\n\
-	table.nodedump-Null, table.nodedump-Undefined { background-color: #333333; }\
-	table.nodedump-Null td.nodedump-data, table.nodedump-Undefined td.nodedump-data { color:#ffffff; background-color: #333333; }\
+	table.nodedump-Null, table.nodedump-Undefined { background-color: #37474F; }\
+	table.nodedump-Null td.nodedump-data, table.nodedump-Undefined td.nodedump-data { color:#ffffff; background-color: #37474F; }\
 	table.nodedump-Error { background-color: #CC3300; }\
 	table.nodedump-Error th.nodedump-Error { background-color: #CC3300; }\
 	</style>';
