@@ -6,9 +6,9 @@ description: "testar Github Pages"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: e98300
-  secondary: 3cb6ce
-  secondary-dark: 5fd2ea
+  primary: 880E4F # Material colors Pink 900
+  secondary: 004D40 # Material colors Teal 900
+  secondary-dark: 212121 # Material colors Grey 900
 
 # Footer settings
 footer:
