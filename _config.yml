@@ -9,6 +9,7 @@ color:
   primary: 607D8B
   secondary: 37474F
   secondary-dark: 263238
+  secondary-light: ECEFF1
 
 # Footer settings
 footer:
