@@ -1,8 +1,8 @@
 # API-anrop
 
-Andel registreringar med längd över 165 cm per kön och landsting:
 
 ----------
+Andel registreringar där patienten är längre än 165 cm, uppdelat på kön och landsting:
 `/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender</code>`
 
 
