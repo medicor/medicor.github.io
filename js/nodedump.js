@@ -546,11 +546,11 @@
 	var TOP = '[TOP]';
 	var CSS = '<style type="text/css">\n' + 
 	'/* nodedump styles */\n' + 
-	'table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border-spacing:2px; width: auto; line-height:normal; }\
-	table.nodedump { font-size: small; background-color: #dddddd; color: #222222; }\
+	'table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border-spacing:1px; width: auto; line-height:normal; }\
+	table.nodedump { font-size: small; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
-	table.nodedump { background-color: #707000; }\
-	table.nodedump th { text-align: left; color: white; padding: 5px; background-color: #263238; }\
+	table.nodedump { background-color: #263238; }\
+	table.nodedump th { text-align: left; color: white; padding: 5px; background-color: #607D8B; }\
 	table.nodedump td { vertical-align : top; padding: 3px; background-color: #ECEFF1; }\
 	table.nodedump td.nodedump-data { background-color: #ffffff; }\
 	table.nodedump td.nodedump-data pre { line-height:normal; background-color: #ffffff; border:0; padding:0; }\n\
