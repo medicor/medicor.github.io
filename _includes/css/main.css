@@ -441,3 +441,10 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+
+/* Extras */
+
+.apidump {
+    width: 100%;
+}

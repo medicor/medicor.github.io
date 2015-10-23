@@ -1,5 +1,5 @@
 /* Thanks to https://github.com/ragamufin/nodedump */
-function visualize(aURI) {
+function jsondump(aURI) {
     var that = window.event.target.parentNode,
         xhr  = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
