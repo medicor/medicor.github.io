@@ -125,7 +125,8 @@ header .intro-text .skills {
 
 .navbar-logo {
     float: left; 
-    padding: 18px 0px 0px 10px;
+    margin: -10px 0px 0px 0px;
+    width: 52px;
 }
 
 @media(min-width:768px) {
@@ -152,7 +153,7 @@ header .intro-text .skills {
     }
 
     .navbar-logo {
-        padding: 10px 10px 0px 0px;
+        margin: -10px 10px 0px 0px;
     }
 
 }
