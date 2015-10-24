@@ -547,11 +547,11 @@
 	var CSS = '<style type="text/css">\n' + 
 	'/* nodedump styles */\n' + 
 	'table.nodedump, table.nodedump th, table.nodedump td { }\
-	table.nodedump { width: 100%; font-size: small; }\
+	table.nodedump { font-size: small; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
 	table.nodedump { background-color: #263238; }\
-	table.nodedump th { text-align: left; color: white; padding: 5px; background-color: #607D8B; }\
-	table.nodedump td { vertical-align : top; padding: 3px; background-color: #ECEFF1; }\
+	table.nodedump th { text-align: left; color: white; padding: 2px 6pxpx; background-color: #607D8B; }\
+	table.nodedump td { vertical-align : top; padding: 2px 6px; background-color: #ECEFF1; }\
 	table.nodedump td.nodedump-data { background-color: #ffffff; }\
 	table.nodedump td.nodedump-data pre { line-height:normal; background-color: #ffffff; border:0; padding:0; }\n\
 	table.nodedump td.nodedump-data pre code { font-size: small; font-family: Consolas, Menlo, Monaco, Lucida Console, monospace; Courier New, monospace, serif; }\n\
