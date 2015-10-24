@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-4">
                     <p>
                             {% for about1 in site.about1 %}
                                 {{ about1.line }} <br>
@@ -19,6 +19,13 @@
                     <p>
                             {% for about2 in site.about2 %}
                                 {{ about2.line }} <br>
+		                    {% endfor %}
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+                            {% for about3 in site.about3 %}
+                                {{ about3.line }} <br>
 		                    {% endfor %}
                     </p>
                 </div>
