@@ -30,15 +30,11 @@ social:
 
 # About section - 1st column
 about1:
-  - line: Medicor AB 
-  - line: 431 50 Mölndal
-  - line: info@medicor.se
+  - line: Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.
 
 # About section - 1st column
 about2:
-  - line: Medicor AB 
-  - line: 431 50 Mölndal
-  - line: info@medicor.se
+  - line: Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.
 
 # Postal address (add as many lines as necessary)
 address:
