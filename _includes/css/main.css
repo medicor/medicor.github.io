@@ -147,8 +147,7 @@ header .intro-text .skills {
     }
 
     .navbar-logo {
-        padding: 18px 0px 0px 10px;
-	    width: 48px;
+        padding: 10px 10px 0px 0px;
     }
 
 }
@@ -161,7 +160,7 @@ header .intro-text .skills {
 
 .navbar-logo {
     float: left; 
-    padding: 10px 10px 0px 0px;
+    padding: 18px 0px 0px 10px;
 }
 
 .navbar a:focus {
