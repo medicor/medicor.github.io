@@ -28,6 +28,18 @@ social:
   - title: github
     url: http://github.com/medicor
 
+# About section - 1st column
+about1:
+  - line: Medicor AB 
+  - line: 431 50 Mölndal
+  - line: info@medicor.se
+
+# About section - 1st column
+about2:
+  - line: Medicor AB 
+  - line: 431 50 Mölndal
+  - line: info@medicor.se
+
 # Postal address (add as many lines as necessary)
 address:
   - line: Medicor AB 
