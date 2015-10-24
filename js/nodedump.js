@@ -749,7 +749,7 @@
 	 * @returns {CSS|JS|SYNTAXHIGHLIGHTCSS|String}
 	 */
 	function doInitialOutput() {
-		return CSS + '\neval("' + JS + '");';
+		return CSS + '\n<script>eval("' + JS + '");</script>';
 	}
 
 	/*
