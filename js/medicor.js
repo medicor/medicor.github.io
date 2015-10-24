@@ -1,6 +1,6 @@
 /* Thanks to https://github.com/ragamufin/nodedump */
-function jsondump(aURI) {
-    var that = window.event.target.parentNode,
+function jsondump(anEvent, aURI) {
+    var that = anEvent.target.parentNode,
         xhr  = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status == 200) {
