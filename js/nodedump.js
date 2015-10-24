@@ -522,9 +522,9 @@
 
 	// output related constants
 	var TABLE = '<table class="nodedump nodedump-%s"><tbody>%s</tbody></table>';
-	var ROWHEADER = '<tr><th colspan="2" class="nodedump-label nodedump-%s"%s onclick="nodedump.toggleTable(this);">%s</th></tr>';
-	var ROW = '<tr%s><td class="nodedump-label nodedump-%s"%s onclick="nodedump.toggleRow(this);">%s</td><td class="nodedump-data"%s>%s</td></tr>';
-	var ROWHEADER1COL = '<tr><th class="nodedump-label nodedump-%s"%s onclick="nodedump.toggleTable(this);">%s</th></tr>';
+	var ROWHEADER = '<tr><th colspan="2" class="nodedump-label nodedump-%s"%s onclick="nodedumphelper.toggleTable(this);">%s</th></tr>';
+	var ROW = '<tr%s><td class="nodedump-label nodedump-%s"%s onclick="nodedumphelper.toggleRow(this);">%s</td><td class="nodedump-data"%s>%s</td></tr>';
+	var ROWHEADER1COL = '<tr><th class="nodedump-label nodedump-%s"%s onclick="nodedumphelper.toggleTable(this);">%s</th></tr>';
 	var ROW1COL = '<tr%s><td class="nodedump-data">%s</td></tr>';
 	var EMPTY = ' [empty]';
 	var ROWHEADEREMPTY = '<tr><th class="nodedump-%s">%s%s</th></tr>';
@@ -564,8 +564,7 @@
 
 	var JS = "<script type=\"text/javascript\">\n\
 	// based on CFDump's js\n\
-	var nodedump;\n\
-	nodedump = (function(){\n\
+	var nodedumphelper = (function(){\n\
 	var style;\n\
 	return {\n\
 		toggleRow: function(source){\n\
