@@ -7,7 +7,7 @@ Andel registreringar där patienten är längre än 165 cm, uppdelat på kön oc
 
 
 <div class="apidump" style="width: 100%">
-<button class="btn btn-default" onclick="visualize('https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/count/county(VisitUnit)/VisitUnit?apikey=bK3H9bwaG4o=');">Kör</button></div>
+<button class="btn btn-default" onclick="jsondump('https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/count/county(VisitUnit)/VisitUnit?apikey=bK3H9bwaG4o=');">Kör</button></div>
 
 ----------
 
