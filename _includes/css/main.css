@@ -123,6 +123,11 @@ header .intro-text .skills {
     }
 }
 
+.navbar-logo {
+    float: left; 
+    padding: 18px 0px 0px 10px;
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -156,11 +161,6 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-}
-
-.navbar-logo {
-    float: left; 
-    padding: 18px 0px 0px 10px;
 }
 
 .navbar a:focus {
