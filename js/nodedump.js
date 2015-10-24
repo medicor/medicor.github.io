@@ -548,7 +548,7 @@
 	var CSS = '<style type="text/css">\n' + 
 	'/* nodedump styles */\n' + 
 	'table.nodedump, table.nodedump th, table.nodedump td { }\
-	table.nodedump { font-size: small; border: 1px solid #607D8B; }\
+	table.nodedump { font-size: small; border: 1px dotted #607D8B; border-collapse: collapse; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
 	table.nodedump { background-color: #263238; }\
 	table.nodedump th { text-align: left; color: white; padding: 2px 6px; background-color: #607D8B; }\
@@ -625,7 +625,7 @@
 	 * @returns the output for the table
 	 */
 	function doTable(dataType, data) {
-		return format(TABLE, '', data);
+		return format(TABLE, dataType, data);
 	}
 
 	/*
