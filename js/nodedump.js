@@ -544,7 +544,7 @@
 	var CIRCULARSPLITSTRING = ' &raquo; ';
 	var CIRCULARTOPSTRINGLIMIT = 12;
 	var TOP = '[TOP]';
-	
+
 	var CSS = '<style type="text/css">\
 	table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border: 1px dotted #CFD8DC; }\
 	table.nodedump { font-size: small; }\
@@ -562,44 +562,45 @@
 	</style>';
 
 	// based on CFDump's js\n\
-	 window.nodedumphelper = (function() {
+	window.nodedumphelper = (function() {
 		var style, table, target;
 		return {
-			toggleRow: function(source){
+			toggleRow: function(source) {
 				var target = (document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild;
-				this.toggleTarget(target,this.toggleSource(source));
-			}
-			,toggleSource: function(source){
+				this.toggleTarget(target, this.toggleSource(source));
+			},
+			toggleSource: function(source) {
 				if (source.style.fontStyle == 'italic') {
-					source.style.fontStyle='normal';
-					source.title='" + TITLEEXPANDED + "';
+					source.style.fontStyle = 'normal';
+					source.title = '" + TITLEEXPANDED + "';
 					return 'open';
-				} else {
-					source.style.fontStyle='italic';
-					source.title='" + TITLECOLLAPSED + "';
+				}
+				else {
+					source.style.fontStyle = 'italic';
+					source.title = '" + TITLECOLLAPSED + "';
 					return 'closed';
 				}
-			}
-			,toggleTable: function(source){
-				var switchToState=this.toggleSource(source);
-				if(document.all) {
-					table=source.parentElement.parentElement;
-					for(var i=1;i<table.rows.length;i++) {
-						target=table.rows[i];
-						this.toggleTarget(target,switchToState);
+			},
+			toggleTable: function(source) {
+				var switchToState = this.toggleSource(source);
+				if (document.all) {
+					table = source.parentElement.parentElement;
+					for (var i = 1; i < table.rows.length; i++) {
+						target = table.rows[i];
+						this.toggleTarget(target, switchToState);
 					}
 				}
 				else {
-					table=source.parentNode.parentNode;
-					for (var i=1;i<table.childNodes.length;i++) {
-						target=table.childNodes[i];
-						if(target.style) {
-							this.toggleTarget(target,switchToState);
+					table = source.parentNode.parentNode;
+					for (var i = 1; i < table.childNodes.length; i++) {
+						target = table.childNodes[i];
+						if (target.style) {
+							this.toggleTarget(target, switchToState);
 						}
 					}
 				}
-			}
-			,toggleTarget: function(target,switchToState){
+			},
+			toggleTarget: function(target, switchToState) {
 				target.style.display = (switchToState == 'open') ? '' : 'none';
 			}
 		};
@@ -741,7 +742,7 @@
 	 * @returns {CSS|JS|SYNTAXHIGHLIGHTCSS|String}
 	 */
 	function doInitialOutput() {
-		return CSS + JS;
+		return CSS;
 	}
 
 	/*
@@ -1086,5 +1087,5 @@
 	}
 
 	setDumpFunctionName(); // set the name of the global nodedump function to the default
-	
+
 })(window);
