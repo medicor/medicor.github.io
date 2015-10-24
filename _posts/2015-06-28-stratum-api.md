@@ -9,7 +9,7 @@ Andel registreringar där patienten har lägre BMI än 22 , uppdelat på landsti
 ```
 
 <div>
-<button class="btn btn-default" onclick="jsondump('https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=');">Kör</button></div>
+<button class="btn btn-default" onclick="jsondump(this, 'https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=');">Kör</button></div>
 
 ----------
 
