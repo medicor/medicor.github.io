@@ -561,58 +561,49 @@
 	table.nodedump-Error th.nodedump-Error { background-color: #CC3300; }\
 	</style>';
 
-	var JS = "<script>\n\
-	console.log('nodedumphelper here!');\
 	// based on CFDump's js\n\
-	if (!window.nodedumphelper) { \n\
-		 window.nodedumphelper = (function() {\n\
-			var style;\n\
-			return {\n\
-				toggleRow: function(source){\n\
-					var target = (document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild;\n\
-					this.toggleTarget(target,this.toggleSource(source));\n\
-				}\n\
-			\n\
-				,toggleSource: function(source){\n\
-					if (source.style.fontStyle == 'italic') {\n\
-						source.style.fontStyle='normal';\n\
-						source.title='" + TITLEEXPANDED + "';\n\
-						return 'open';\n\
-					} else {\n\
-						source.style.fontStyle='italic';\n\
-						source.title='" + TITLECOLLAPSED + "';\n\
-						return 'closed';\n\
-					}\n\
-				}\n\
-			\n\
-				,toggleTable: function(source){\n\
-					var switchToState=this.toggleSource(source);\n\
-					if(document.all) {\n\
-						var table=source.parentElement.parentElement;\n\
-						for(var i=1;i<table.rows.length;i++) {\n\
-							target=table.rows[i];\n\
-							this.toggleTarget(target,switchToState);\n\
-						}\n\
-					}\n\
-					else {\n\
-						var table=source.parentNode.parentNode;\n\
-						for (var i=1;i<table.childNodes.length;i++) {\n\
-							target=table.childNodes[i];\n\
-							if(target.style) {\n\
-								this.toggleTarget(target,switchToState);\n\
-							}\n\
-						}\n\
-					}\n\
-				}\n\
-			\n\
-				,toggleTarget: function(target,switchToState){\n\
-					target.style.display = (switchToState == 'open') ? '' : 'none';\n\
-				}\n\
-			};\n\
-			\n\
-		})();\n\
-	}\
-	</script>";
+	 window.nodedumphelper = (function() {
+		var style, table, target;
+		return {
+			toggleRow: function(source){
+				var target = (document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild;
+				this.toggleTarget(target,this.toggleSource(source));
+			}
+			,toggleSource: function(source){
+				if (source.style.fontStyle == 'italic') {
+					source.style.fontStyle='normal';
+					source.title='" + TITLEEXPANDED + "';
+					return 'open';
+				} else {
+					source.style.fontStyle='italic';
+					source.title='" + TITLECOLLAPSED + "';
+					return 'closed';
+				}
+			}
+			,toggleTable: function(source){
+				var switchToState=this.toggleSource(source);
+				if(document.all) {
+					table=source.parentElement.parentElement;
+					for(var i=1;i<table.rows.length;i++) {
+						target=table.rows[i];
+						this.toggleTarget(target,switchToState);
+					}
+				}
+				else {
+					table=source.parentNode.parentNode;
+					for (var i=1;i<table.childNodes.length;i++) {
+						target=table.childNodes[i];
+						if(target.style) {
+							this.toggleTarget(target,switchToState);
+						}
+					}
+				}
+			}
+			,toggleTarget: function(target,switchToState){
+				target.style.display = (switchToState == 'open') ? '' : 'none';
+			}
+		};
+	})();
 
 	/*
 	 * Methods for building the output
