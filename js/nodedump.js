@@ -545,16 +545,15 @@
 	var CIRCULARTOPSTRINGLIMIT = 12;
 	var TOP = '[TOP]';
 	
-	var CSS = '<style type="text/css">\n' + 
-	'/* nodedump styles */\n' + 
-	'table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border: 1px dotted #CFD8DC; }\
+	var CSS = '<style type="text/css">\
+	table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border: 1px dotted #CFD8DC; }\
 	table.nodedump { font-size: small; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
 	table.nodedump { }\
 	table.nodedump th { text-align: left; color: white; padding: 2px 6px; background-color: #607D8B; }\
 	table.nodedump td { vertical-align : top; padding: 2px 6px; background-color: #ECEFF1; }\
 	table.nodedump td.nodedump-data { background-color: #ffffff; }\
-	table.nodedump td.nodedump-data pre { line-height:normal; background-color: #ffffff; border:0; padding:0; }\n\
+	table.nodedump td.nodedump-data pre { line-height:normal; background-color: #ffffff; border:0; padding:0; }\
 	table.nodedump td.nodedump-data pre code { font-size: small; font-family: Consolas, Menlo, Monaco, Lucida Console, monospace; Courier New, monospace, serif; }\n\
 	table.nodedump-Null, table.nodedump-Undefined { background-color: #37474F; }\
 	table.nodedump-Null td.nodedump-data, table.nodedump-Undefined td.nodedump-data { color:#ffffff; background-color: #37474F; }\
@@ -564,14 +563,14 @@
 
 	var JS = "<script>\n\
 	// based on CFDump's js\n\
-	if (!window.nodedumphelper) { \
+	if (!window.nodedumphelper) { \n\
 		 window.nodedumphelper = (function() {\n\
 			var style;\n\
 			return {\n\
 				toggleRow: function(source){\n\
 					var target = (document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild;\n\
 					this.toggleTarget(target,this.toggleSource(source));\n\
-				} // end toggleRow\n\
+				}\n\
 			\n\
 				,toggleSource: function(source){\n\
 					if (source.style.fontStyle == 'italic') {\n\
@@ -583,7 +582,7 @@
 						source.title='" + TITLECOLLAPSED + "';\n\
 						return 'closed';\n\
 					}\n\
-				} // end toggleSource\n\
+				}\n\
 			\n\
 				,toggleTable: function(source){\n\
 					var switchToState=this.toggleSource(source);\n\
@@ -603,11 +602,11 @@
 							}\n\
 						}\n\
 					}\n\
-				} // end toggleTable\n\
+				}\n\
 			\n\
 				,toggleTarget: function(target,switchToState){\n\
 					target.style.display = (switchToState == 'open') ? '' : 'none';\n\
-				} // end toggleTarget\n\
+				}\n\
 			};\n\
 			\n\
 		})();\n\
