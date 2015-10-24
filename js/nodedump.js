@@ -562,54 +562,56 @@
 	table.nodedump-Error th.nodedump-Error { background-color: #CC3300; }\
 	</style>';
 
-	var JS = "<script type=\"text/javascript\">\n\
+	var JS = "<script>\n\
 	// based on CFDump's js\n\
-	var nodedumphelper = (function(){\n\
-	var style;\n\
-	return {\n\
-		toggleRow: function(source){\n\
-			var target = (document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild;\n\
-			this.toggleTarget(target,this.toggleSource(source));\n\
-		} // end toggleRow\n\
-	\n\
-		,toggleSource: function(source){\n\
-			if (source.style.fontStyle == 'italic') {\n\
-				source.style.fontStyle='normal';\n\
-				source.title='" + TITLEEXPANDED + "';\n\
-				return 'open';\n\
-			} else {\n\
-				source.style.fontStyle='italic';\n\
-				source.title='" + TITLECOLLAPSED + "';\n\
-				return 'closed';\n\
-			}\n\
-		} // end toggleSource\n\
-	\n\
-		,toggleTable: function(source){\n\
-			var switchToState=this.toggleSource(source);\n\
-			if(document.all) {\n\
-				var table=source.parentElement.parentElement;\n\
-				for(var i=1;i<table.rows.length;i++) {\n\
-					target=table.rows[i];\n\
-					this.toggleTarget(target,switchToState);\n\
-				}\n\
-			}\n\
-			else {\n\
-				var table=source.parentNode.parentNode;\n\
-				for (var i=1;i<table.childNodes.length;i++) {\n\
-					target=table.childNodes[i];\n\
-					if(target.style) {\n\
-						this.toggleTarget(target,switchToState);\n\
+	if (!window.nodedumphelper) { \
+		 window.nodedumphelper = (function() {\n\
+			var style;\n\
+			return {\n\
+				toggleRow: function(source){\n\
+					var target = (document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild;\n\
+					this.toggleTarget(target,this.toggleSource(source));\n\
+				} // end toggleRow\n\
+			\n\
+				,toggleSource: function(source){\n\
+					if (source.style.fontStyle == 'italic') {\n\
+						source.style.fontStyle='normal';\n\
+						source.title='" + TITLEEXPANDED + "';\n\
+						return 'open';\n\
+					} else {\n\
+						source.style.fontStyle='italic';\n\
+						source.title='" + TITLECOLLAPSED + "';\n\
+						return 'closed';\n\
 					}\n\
-				}\n\
-			}\n\
-		} // end toggleTable\n\
-	\n\
-		,toggleTarget: function(target,switchToState){\n\
-			target.style.display = (switchToState == 'open') ? '' : 'none';\n\
-		} // end toggleTarget\n\
-	};\n\
-	\n\
-	})();\n\
+				} // end toggleSource\n\
+			\n\
+				,toggleTable: function(source){\n\
+					var switchToState=this.toggleSource(source);\n\
+					if(document.all) {\n\
+						var table=source.parentElement.parentElement;\n\
+						for(var i=1;i<table.rows.length;i++) {\n\
+							target=table.rows[i];\n\
+							this.toggleTarget(target,switchToState);\n\
+						}\n\
+					}\n\
+					else {\n\
+						var table=source.parentNode.parentNode;\n\
+						for (var i=1;i<table.childNodes.length;i++) {\n\
+							target=table.childNodes[i];\n\
+							if(target.style) {\n\
+								this.toggleTarget(target,switchToState);\n\
+							}\n\
+						}\n\
+					}\n\
+				} // end toggleTable\n\
+			\n\
+				,toggleTarget: function(target,switchToState){\n\
+					target.style.display = (switchToState == 'open') ? '' : 'none';\n\
+				} // end toggleTarget\n\
+			};\n\
+			\n\
+		})();\n\
+	}\
 	</script>";
 
 	/*
