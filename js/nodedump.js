@@ -546,8 +546,8 @@
 	var TOP = '[TOP]';
 	var CSS = '<style type="text/css">\n' + 
 	'/* nodedump styles */\n' + 
-	'table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border-spacing:1px; width: auto; line-height:normal; }\
-	table.nodedump { font-size: small; }\
+	'table.nodedump, table.nodedump th, table.nodedump td { }\
+	table.nodedump { width: 100%; font-size: small; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
 	table.nodedump { background-color: #263238; }\
 	table.nodedump th { text-align: left; color: white; padding: 5px; background-color: #607D8B; }\
