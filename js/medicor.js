@@ -2,8 +2,9 @@
 function jsondump(anEvent, aURI) {
     var that = anEvent.parentNode,
         xhr  = window.XDomainRequest ? new XDomainRequest() : new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status == 200) {
+        
+    xhr.onreadystatechange = xhr.onload = function () {
+        if (this.status == 200 && (this.readyState || this.readyState === 4)) {
             that.innerHTML = nodedump(JSON.parse(xhr.responseText));
         }
     };
