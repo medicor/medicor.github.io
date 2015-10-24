@@ -561,7 +561,8 @@
 	table.nodedump-Error th.nodedump-Error { background-color: #CC3300; }\
 	</style>';
 
-	var JS = "\n\
+	var JS = "<script>\n\
+	console.log('nodedumphelper here!');\
 	// based on CFDump's js\n\
 	if (!window.nodedumphelper) { \n\
 		 window.nodedumphelper = (function() {\n\
@@ -611,7 +612,7 @@
 			\n\
 		})();\n\
 	}\
-	";
+	</script>";
 
 	/*
 	 * Methods for building the output
@@ -749,7 +750,7 @@
 	 * @returns {CSS|JS|SYNTAXHIGHLIGHTCSS|String}
 	 */
 	function doInitialOutput() {
-		return CSS + '\n<script>eval("' + JS + '");</script>';
+		return CSS + JS;
 	}
 
 	/*
