@@ -547,8 +547,8 @@
 	
 	var CSS = '<style type="text/css">\n' + 
 	'/* nodedump styles */\n' + 
-	'table.nodedump, table.nodedump th, table.nodedump td { }\
-	table.nodedump { font-size: small; border: 1px dotted #607D8B; border-collapse: collapse; }\
+	'table.nodedump, table.nodedump th, table.nodedump td { border-collapse: separate; border-spacing:1px; border: 1px dotted #CFD8DC; }\
+	table.nodedump { font-size: small; }\
 	table.nodedump .nodedump-label { cursor:pointer; }\
 	table.nodedump { background-color: #263238; }\
 	table.nodedump th { text-align: left; color: white; padding: 2px 6px; background-color: #607D8B; }\

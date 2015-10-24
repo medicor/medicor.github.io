@@ -7,6 +7,7 @@ description: "testar Github Pages"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 607D8B
+  primary-light: CFD8DC
   secondary: 37474F
   secondary-dark: 263238
   secondary-light: ECEFF1
