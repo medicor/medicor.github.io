@@ -42,8 +42,7 @@ about3:
 # Postal address (add as many lines as necessary)
 address:
   - line: Medicor AB 
-  - line: 431 50 Mölndal
-  - line: info@medicor.se
+  - line: roger@medicor.se
 
 # Credits content
 credits: 'Tema baserat på <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> för Jekyll' #  som är skapat av <a href="http://startbootstrap.com">Start Bootstrap</a>
