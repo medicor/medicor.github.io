@@ -30,7 +30,7 @@ social:
 
 # About section - 1st column
 about1:
-  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I guess programming still is my main interest although after a 30 year streak, engagement comes and goes. <a href="https://www.polymer-project.org/">Polymer</a> and <a href="http://webcomponents.org/">web components</a> has made the scene a lot more fun. Polymer also being Google''s reference implementation of their superb <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> and <a href="https://elements.polymer-project.org/browse?package=paper-elements">Paper Elements</a>, makes it even more interesting. I believe this to be paradigm shifting.'
+  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I guess programming still is my main interest although after a 30 year streak, engagement comes and goes. <a href="https://www.polymer-project.org/">Polymer</a> and <a href="http://webcomponents.org/">web components</a> has made the scene a lot more fun. Polymer also being Google''s reference implementation of their superb <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> through <a href="https://elements.polymer-project.org/browse?package=paper-elements">Paper Elements</a>, makes it even more interesting. I believe this to be paradigm shifting.'
 
 # About section - 2nd column
 about2:
