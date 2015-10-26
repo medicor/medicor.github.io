@@ -30,14 +30,14 @@ social:
 
 # About section - 1st column
 about1:
-  - line: '<img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px">Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.'
+  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I guess programming still is my main interest, although after a 34 year streak, engagement comes and goes. Polymer and <a href="http://webcomponents.org/>web components</a> has made things a lot more interesting. Polymer also being Google\'s reference implementation of their superb <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> doesn\'t make it any less interesting. It\'s a paradigm shifter.'
 
 # About section - 1st column
 about2:
-  - line: '<img src="/img/logo-ableton.png" style="float: left; margin: 0px 15px 15px 0px">Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.'
+  - line: '<a href="https://www.ableton.com/en/live"><img src="/img/logo-ableton.png" style="float: left; margin: 0px 15px 15px 0px"></a>Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.'
 
 about3:
-  - line: '<img src="/img/logo-tradingview.png" style="float: left; margin: 0px 15px 15px 0px">Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.'
+  - line: '<a href="https://www.tradingview.com/chart/eO0kdePX/"><img src="/img/logo-tradingview.png" style="float: left; margin: 0px 15px 15px 0px"></a>Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint.'
 
 # Postal address (add as many lines as necessary)
 address:
