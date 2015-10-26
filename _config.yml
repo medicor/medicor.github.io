@@ -42,10 +42,11 @@ about3:
 # Postal address (add as many lines as necessary)
 address:
   - line: Medicor AB 
+  - line: Roger Salomonsson
   - line: roger@medicor.se
 
 # Credits content
-credits: 'Theme based on<br><a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for Bootstrap</a> theme for <a href="https://jekyllrb.com/">Jekyll</a>'
+credits: 'Theme based on<br><a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for Bootstrap</a><br>theme for <a href="https://jekyllrb.com/">Jekyll</a>'
 
 markdown: redcarpet
 highlighter: pygments
