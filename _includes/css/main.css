@@ -263,7 +263,7 @@ section.success {
 }
 
 #about a {
-    color: {{ site.color.secondary-light }}
+    color: #{{ site.color.secondary-light }}
 }
 
 .btn-outline {
