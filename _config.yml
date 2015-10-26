@@ -45,7 +45,7 @@ address:
   - line: roger@medicor.se
 
 # Credits content
-credits: 'Theme based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for Bootstrap</a><br>theme for <a href="https://jekyllrb.com/">Jekyll</a>'
+credits: 'Theme based on<br><a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for Bootstrap</a> theme for <a href="https://jekyllrb.com/">Jekyll</a>'
 
 markdown: redcarpet
 highlighter: pygments
