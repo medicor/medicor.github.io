@@ -262,6 +262,10 @@ section.success {
     }
 }
 
+#about a {
+    color: {{ site.color.secondary-light }}
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
