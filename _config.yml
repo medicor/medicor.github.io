@@ -30,7 +30,7 @@ social:
 
 # About section - 1st column
 about1:
-  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I guess programming still is my main interest, although after a 30 year streak euphoria comes and goes. <a href="https://www.polymer-project.org/">Polymer</a> and <a href="http://webcomponents.org/">web components</a> has made the scene a lot more fun. Polymer also being Google''s reference implementation of their superb <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> through <a href="https://elements.polymer-project.org/browse?package=paper-elements">Paper Elements</a>, makes it even more interesting. I believe this to be paradigm shifting.'
+  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I guess programming still is my main interest, although after a 30 year streak, euphoria comes and goes. <a href="https://www.polymer-project.org/">Polymer</a> and <a href="http://webcomponents.org/">web components</a> has made the scene a lot more fun. Polymer also being Google''s reference implementation of their superb <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> through <a href="https://elements.polymer-project.org/browse?package=paper-elements">Paper Elements</a>, makes it even more interesting. I believe this to be paradigm shifting.'
 
 # About section - 2nd column
 about2:
@@ -38,7 +38,7 @@ about2:
 
 # About section - 3rd column
 about3:
-  - line: '<a href="https://www.tradingview.com/chart/eO0kdePX/"><img src="/img/logo-tradingview.png" style="float: left; margin: 0px 15px 15px 0px"></a>Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint. You can view my current <a href="https://www.tradingview.com/chart/eO0kdePX/">portfolio</a> if you like. All public, open and free. As it should be.'
+  - line: '<a href="https://www.tradingview.com/"><img src="/img/logo-tradingview.png" style="float: left; margin: 0px 15px 15px 0px"></a>Lorem ipsum dolor sit amet, omittam molestie vis no. Vis meis concludaturque an, congue nullam eos ei, facer quaestio eam ea. Ne est nisl mandamus, eam no amet quando malorum, ea ius tale antiopam. Eos in scripta conclusionemque, nec eu porro labitur consequat. Eum ad eleifend necessitatibus, an duo officiis sapientem inciderint. You can view my current <a href="https://www.tradingview.com/chart/eO0kdePX/">portfolio</a> if you like. All public, open and free. As it should be.'
 
 # Postal address (add as many lines as necessary)
 address:
