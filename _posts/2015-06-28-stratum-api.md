@@ -1,6 +1,6 @@
 # API calls to Stratum
 
-Stratum is a platform for quality registers in healthcare. Its api:s can be used for alla kinds of things, for example:
+Stratum is a platform for quality registers in healthcare. Its aggregate api can be used for all kinds of descriptive statistics, for example:
 
 
 ----------
