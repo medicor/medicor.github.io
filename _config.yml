@@ -30,7 +30,7 @@ social:
 
 # About section - 1st column
 about1:
-  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I still consider programming my main interest, although after a 30 year streak, euphoria comes and goes. <a href="https://www.polymer-project.org/">Polymer</a> and <a href="http://webcomponents.org/">web components</a> has made the scene a lot more fun. Polymer, being Google''s reference implementation of their superb <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> through <a href="https://elements.polymer-project.org/browse?package=paper-elements">Paper Elements</a>, makes it twice as interesting. I believe this to be paradigm shifting.'
+  - line: '<a href="https://www.polymer-project.org/"><img src="/img/logo-polymer.png" style="float: left; margin: 0px 15px 15px 0px"></a>I still consider programming my main interest, although after a 30 year streak, euphoria comes and goes. <a href="https://www.polymer-project.org/">Polymer</a> and <a href="http://webcomponents.org/">web components</a> has made the scene a lot more fun. Polymer and its <a href="https://elements.polymer-project.org/browse?package=paper-elements">Paper Elements</a>, being Google''s reference implementation of their ground-breaking <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a>, doesn''t make it any less interesting. I believe this to be paradigm shifting. Let''s see how it all will relate to <a href="https://angular.io/">Angular</a> in the future.'
 
 # About section - 2nd column
 about2:
