@@ -10,23 +10,17 @@
             <div class="row">
                 <div class="col-lg-4">
                     <p>
-                            {% for about1 in site.about1 %}
-                                {{ about1.line }} <br>
-		                    {% endfor %}
+                        {% include about1.html %}
                     </p>
                 </div>
                 <div class="col-lg-4">
                     <p>
-                            {% for about2 in site.about2 %}
-                                {{ about2.line }} <br>
-		                    {% endfor %}
+                        {% include about2.html %}
                     </p>
                 </div>
                 <div class="col-lg-4">
                     <p>
-                            {% for about3 in site.about3 %}
-                                {{ about3.line }} <br>
-		                    {% endfor %}
+                        {% include about3.html %}
                     </p>
                 </div>
             </div>
