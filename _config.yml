@@ -37,11 +37,12 @@ address:
 # Credits content
 credits: 'Theme based on<br><a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer for Bootstrap</a><br>theme for <a href="https://jekyllrb.com/">Jekyll</a>'
 
-markdown: redcarpet
+#markdown: redcarpet
 highlighter: pygments
 
 #redcarpet:
 #  extensions: []
 
-#kramdown:
-#  input: GFM
+kramdown:
+  input: GFM
+  parse_block_html: true
