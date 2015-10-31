@@ -9,19 +9,25 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <!-- Thanks to http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/ -->
-                    <p markdown="1">
-                        {% include about1.md %}
+                    <!-- 
+                        Using markdown="1" does not work since site uses Redcarpet instead of Kramdown.
+                        See also http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/ 
+                    -->
+                    <p>
+                        {% capture about1 %}{% include about1.md %}{% endcapture %}
+                        {{ about1 | markdownify }}
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <p markdown="1">
-                        {% include about2.md %}
+                    <p>
+                        {% capture about2 %}{% include about2.md %}{% endcapture %}
+                        {{ about2 | markdownify }}
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <p markdown="1">
-                        {% include about3.md %}
+                    <p>
+                        {% capture about3 %}{% include about3.md %}{% endcapture %}
+                        {{ about3 | markdownify }}
                     </p>
                 </div>
             </div>
