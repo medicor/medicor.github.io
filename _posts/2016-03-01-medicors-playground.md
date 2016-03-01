@@ -3,3 +3,4 @@ I have a new start page](http://medicor.se), hosted on my Radxa Rock server, tha
 
 ----------
 *Written with [StackEdit](https://stackedit.io/) markdown editor.*
+<br>
