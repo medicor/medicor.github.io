@@ -22,3 +22,4 @@ Number of registrations in the Swedish Fracture Register, split by place of and 
 
 ----------
 Written with [<i class="icon-provider-stackedit"></i> StackEdit](https://stackedit.io/) markdown editor.
+
