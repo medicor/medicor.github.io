@@ -21,6 +21,15 @@ Number of registrations in the Swedish Fracture Register, split by place of and 
 <button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/aggregate/SFR/Skade/total/count/Inj_Place/Inj_Activity?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
+Metadata from reoperation form of Swedish Hip Arthroplasty Register:
+
+```JSON
+/api/metadata/forms/1003
+```
+<div>
+<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/metadata/forms/1003?apikey=bK3H9bwaG4o=');">Run this!</button></div>
+
+----------
 *Written with [StackEdit](https://stackedit.io/) markdown editor.*
 <br>
 <br>
