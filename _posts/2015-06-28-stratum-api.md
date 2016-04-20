@@ -36,7 +36,7 @@ Variable specification for Swedish Hip Arthroplasty Register:
 /descriptions/shpr?format=json
 ```
 <div>
-<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/descriptions/shpr?apikey=J6b-GSKrkfk=&format=json');">Run this!</button></div>
+<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/descriptions/shpr?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
 *Written with [StackEdit](https://stackedit.io/) markdown editor.*
