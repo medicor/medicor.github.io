@@ -33,7 +33,7 @@ Metadata from primary operation form of Swedish Hip Arthroplasty Register:
 Variable specification for Swedish Hip Arthroplasty Register:
 
 ```JSON
-/descriptions/shpr?format=json
+/api/descriptions/shpr?format=json
 ```
 <div>
 <button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/descriptions/shpr?apikey=bK3H9bwaG4o=');">Run this!</button></div>
