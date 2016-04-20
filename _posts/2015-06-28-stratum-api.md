@@ -30,15 +30,6 @@ Metadata from primary operation form of Swedish Hip Arthroplasty Register:
 <button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/metadata/forms/1002?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
-Variable specification for Swedish Hip Arthroplasty Register:
-
-```JSON
-/api/descriptions/shpr?format=json
-```
-<div>
-<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/descriptions/shpr?apikey=bK3H9bwaG4o=');">Run this!</button></div>
-
-----------
 *Written with [StackEdit](https://stackedit.io/) markdown editor.*
 <br>
 <br>
