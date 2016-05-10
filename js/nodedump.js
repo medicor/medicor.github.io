@@ -1,3 +1,6 @@
+
+// Built upon https://github.com/ragamufin/nodedump
+
 (function(global) {
 	// Copyright Joyent, Inc. and other Node contributors.
 	//
