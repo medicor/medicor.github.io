@@ -30,15 +30,6 @@ Metadata from primary operation form of Swedish Hip Arthroplasty Register:
 <button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/metadata/forms/1002?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
-Global methods in Stratum:
-
-```JSON
-/api/configurations/globals
-```
-<div>
-<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/configurations/globals');">Run this!</button></div>
-
-----------
 *Written with [StackEdit](https://stackedit.io/) markdown editor.*
 <br>
 <br>
