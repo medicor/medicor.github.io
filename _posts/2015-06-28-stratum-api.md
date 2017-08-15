@@ -1,6 +1,6 @@
 # API calls to Stratum
 
-Stratum is a platform for healthcare quality registers. Its aggregate api can be used for all kinds of descriptive statistics, for example:
+Stratum is a platform for healthcare quality registers. Its aggregate api can be used for all kinds of descriptive statistics, for example XXX:
 
 ----------
 Share of registrations in the Swedish Respiratory Register where patients have a BMI under 22 , split by county and gender:
