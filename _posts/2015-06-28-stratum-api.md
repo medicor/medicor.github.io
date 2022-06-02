@@ -9,7 +9,7 @@ Share of registrations in the Swedish Respiratory Register where patients have a
 /api/aggregate/LVR/Visit/total/share(BodyMassIndex(22))/county(VisitUnit)/Gender
 ```
 <div>
-<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=');">Run this!</button></div>
+<button class="btn btn-default" onclick="jsondump(this, 'https://stratum.registercentrum.se/api/aggregate/LVR/Visit/total/share(Height(165))/county(VisitUnit)/Gender?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
 Number of registrations in the Swedish Fracture Register, split by place of and activity during injury:
@@ -18,7 +18,7 @@ Number of registrations in the Swedish Fracture Register, split by place of and 
 /api/aggregate/SFR/Skade/total/count/Inj_Place/Inj_Activity
 ```
 <div>
-<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/aggregate/SFR/Skade/total/count/Inj_Place/Inj_Activity?apikey=bK3H9bwaG4o=');">Run this!</button></div>
+<button class="btn btn-default" onclick="jsondump(this, 'https://stratum.registercentrum.se/api/aggregate/SFR/Skade/total/count/Inj_Place/Inj_Activity?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
 Metadata from primary operation form of Swedish Hip Arthroplasty Register:
@@ -27,7 +27,7 @@ Metadata from primary operation form of Swedish Hip Arthroplasty Register:
 /api/metadata/forms/1002
 ```
 <div>
-<button class="btn btn-default" onclick="jsondump(this, 'http://stratum.registercentrum.se/api/metadata/forms/1002?apikey=bK3H9bwaG4o=');">Run this!</button></div>
+<button class="btn btn-default" onclick="jsondump(this, 'https://stratum.registercentrum.se/api/metadata/forms/1002?apikey=bK3H9bwaG4o=');">Run this!</button></div>
 
 ----------
 *Written with [StackEdit](https://stackedit.io/) markdown editor.*
